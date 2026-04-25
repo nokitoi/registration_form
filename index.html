@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Main container for the form -->
+<div class="container">
+    <h2>Student Registration</h2>
+
+    <!-- Form starts here -->
+    <form id="form">
+
+        <!-- Name input -->
+        <label>Full Name:</label>
+        <input type="text" id="name" required>
+
+        <!-- Email input -->
+        <label>Email:</label>
+        <input type="email" id="email" required>
+
+        <!-- Password input -->
+        <label>Password:</label>
+        <input type="password" id="password" required>
+
+        <!-- Confirm password input -->
+        <label>Confirm Password:</label>
+        <input type="password" id="confirmPassword" required>
+
+        <!-- Submit button -->
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Message area for success/error -->
+    <p id="message"></p>
+</div>
+
+<!-- Link to external JavaScript file -->
+<script src="script.js"></script>
+
+</body>
+</html>
